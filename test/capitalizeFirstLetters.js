@@ -9,7 +9,7 @@ describe('capitalizeFirstLetters', () => {
     });
 
     it('transforms javascript correctly', () => {
-        assert.strictEqual(capitalizeFirstLetters('goHome'), 'goHome');
+        assert.strictEqual(capitalizeFirstLetters('goHome'), 'GoHome');
     });
 
     it('works with a 1-character string', () => {
