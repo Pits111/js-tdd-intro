@@ -23,13 +23,13 @@ assert.strictEqual(typeof capitalizeFirstLetters, 'function');
 assert.strictEqual(capitalizeFirstLetters.length, 1);
 
 // // Check that capitalizeFirstLetters transforms javaScript correctly
-assert.strictEqual(capitalizeFirstLetters('javaScript'), 'JavaScript');
+assert.strictEqual(capitalizeFirstLetters('live is good'), 'Live Is Good');
 
 // // Check that capitalizeFirstLetters transforms multiple words correctly
 assert.strictEqual(capitalizeFirstLetters('i am learning TDD'), 'I Am Learning TDD');
 
 // // Check that it works for a 1-character string
-assert.strictEqual(capitalizeFirstLetters('z'), 'Z');
+assert.strictEqual(capitalizeFirstLetters('is this working'), 'Is This Working');
 
 // // Check that it works for an empty string
 assert.strictEqual(capitalizeFirstLetters(''), '');
