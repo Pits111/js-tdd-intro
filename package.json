@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Pits111/js-tdd-intro#readme",
   "dependencies": {
     "mocha": "^9.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
